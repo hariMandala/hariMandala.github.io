@@ -1,0 +1,40 @@
+#section1, #section2, #section3 {
+	border-width: 5px;
+	border-style: solid;
+	margin: 10px;
+}
+.sectiontitle {
+	width: 80px;
+	margin-top: 0px;
+	background-color: red;
+	text-align: center;
+	position: relative;
+	float: right;
+	border-width: 0px 0px 2px 2px;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	font-size: 20px;
+}
+
+.sectiontext {
+	padding: 5px;
+}
+
+@media (min-width: 992px) {
+	#section1, #section2, #section3 {
+		width: 30%;
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#section1, #section2 {
+		width: 45%;
+		float: left;
+	}
+
+	#section3  {
+		width: 94%;
+		float: left;
+	}
+}
